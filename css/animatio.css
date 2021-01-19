@@ -1,0 +1,42 @@
+div.service_block:hover {
+  	transform: scale3d(1.5,1.5,1.5);
+  	overflow: hidden;
+	transition-duration: 1s;
+}
+div.service_block:not(:hover) {
+	transition-duration: 1s;
+}
+div.service_img:hover #headr_titles{
+  color: green;
+}
+.lightbox2:hover {
+	transform: scale3d(1.1,1.1,1.1);
+  	font-family: 'Times New Roman', Times, serif;
+	overflow: hidden;
+	transition-duration: 1s;
+}
+.lightbox2:not(:hover) {
+	transition-duration: 1s;
+}
+
+.lightbox2:hover #lightbox_heding{
+	color: blue;
+	transform: scale3d(1.1,1.1,1.1);
+	transition-duration: 1s;
+}
+.lightbox2:not(:hover) #lightbox_heding{
+	transition-duration: 1s;
+}
+#lightbox_heding{
+	text-align: center; 
+	text-decoration: none; 
+	color: black; 
+	font-family: 'Times New Roman', Times, serif;
+}
+.main_heading:hover{
+	transform: scale3d(1.1,1.1,1.1);
+	transition-duration: 1s;
+}
+.main_heading:not(:hover){
+	transition-duration: 1s;
+}
